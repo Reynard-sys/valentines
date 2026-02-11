@@ -26,7 +26,7 @@ const memories = [
   {
     image: "/mem1.png",
     title: "6 7 siblings",
-    text: "The day where we got closer. If not for this day, siguro we won't start our streak, we wouldn't be sending each other dumb videos, and we wouldn't be talking every day. So in a way, I'm really thankful for ArtApp. Dito rin ako unang nagka-idea about your humor, and I realized how much fun it is to spend time with u HAHAHAHA. ALso, u looked so CUTEEE with those pigtails (⸝⸝> ᴗ•⸝⸝)",
+    text: "The day where we got closer. If not for this day, siguro we won't start our streak, we wouldn't be sending each other dumb videos, and we wouldn't be talking every day. So in a way, I'm really thankful for ArtApp. Dito rin ako unang nagka-idea about your humor, and I realized how much fun it is to spend time with u HAHAHAHA. Also, u looked so CUTEEE with those pigtails (⸝⸝> ᴗ•⸝⸝)",
     badge: "Funny",
   },
   {
