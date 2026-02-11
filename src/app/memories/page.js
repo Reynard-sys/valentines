@@ -200,7 +200,7 @@ export default function Memories() {
                 {memories.map((memory, index) => (
                   <div
                     key={index}
-                    className="pl-2 md:pl-4 basis-1/3 lg:basis-1/4 min-w-70 shrink-0"
+                    className="pl-2 md:pl-4 basis-1/4 lg:basis-1/4 min-w-70 shrink-0"
                   >
                     <div className="p-1">
                       <div
