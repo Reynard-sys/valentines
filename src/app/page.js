@@ -28,7 +28,7 @@ export default function Letter() {
     explosionContainer.style.zIndex = "9999";
     document.body.appendChild(explosionContainer);
 
-    for (let i = 0; i < 167; i++) {
+    for (let i = 0; i < 67; i++) {
       const sakura = document.createElement("img");
       sakura.src = "/sakura-leaf.png";
       sakura.style.position = "absolute";
