@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useCallback, useEffect } from "react";
+import { useState, useCallback, useEffect, useRef } from "react";
 import SakuraFalling from "@/components/SakuraFalling";
 import Image from "next/image";
 import {
@@ -122,6 +122,8 @@ export default function Memories() {
   const [selectedMemory, setSelectedMemory] = useState(null);
   const [selectedIndex, setSelectedIndex] = useState(null);
   const [isScrolling, setIsScrolling] = useState(false);
+  const audioRef = useRef(null);
+
   const [emblaRef, emblaApi] = useEmblaCarousel(
     {
       loop: true,
@@ -136,6 +138,15 @@ export default function Memories() {
       }),
     ],
   );
+
+  useEffect(() => {
+    if (audioRef.current) {
+      audioRef.current.volume = 0.4;
+      audioRef.current.play().catch((error) => {
+        console.log("Autoplay prevented:", error);
+      });
+    }
+  }, []);
 
   const handleImageClick = useCallback((memory, index) => {
     setSelectedMemory(memory);
@@ -158,6 +169,10 @@ export default function Memories() {
 
   return (
     <main className="relative flex min-h-screen flex-col items-center justify-center bg-linear-to-br from-[#ffeef8] via-[#fff5f7] to-[#f0ffe0] overflow-hidden">
+      <audio ref={audioRef} loop>
+        <source src="/lovesong.mp3" type="audio/mpeg" />
+      </audio>
+
       <SakuraFalling />
 
       <div className="flex flex-col items-center gap-6 pointer-events-auto z-10 w-full px-4">
