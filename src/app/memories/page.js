@@ -110,7 +110,7 @@ const memories = [
   {
     image: "/mem15.png",
     title: "Polka Day 2",
-    text: "Our last kita so far. I really appreciate every moment we've had. I can't quite describe it, but it feels like I've met another version of myself. I hope we can continue what we have and create even more memories together. I'm looking forward to our future plans, dates, and ganaps. Thank you for existing and for sharing your life with me. I'm so grateful that I met you, and that I always appreciate you. I miss you so much. See you later, cutie! Happy Valentine's Day (˶ᵔ ᵕ ᵔ˶) ‹𝟹",
+    text: "Our last kita so far. I really appreciate every moment we've had. I can't quite describe it, but it feels like I've met another version of myself. I hope we can continue what we have and create even more memories together. I'm looking forward to our future plans, dates, and ganaps. Thank you for existing and for sharing your life with me. I'm so grateful that I met you, and that I always appreciate you. I miss you so much. See you tomorrow, cutie! Happy Valentine's Day (˶ᵔ ᵕ ᵔ˶) ‹𝟹",
     badge: "I <3 U",
   },
 ];

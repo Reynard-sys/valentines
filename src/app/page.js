@@ -95,6 +95,12 @@ export default function Letter() {
           )}
         </div>
       </div>
+      <div className="mt-4 text-center">
+        <p className="text-pink-600 font-medium text-sm sm:text-base animate-pulse">
+          Wow 14 na?? Can I be the 1 4 u? HAHAHAHA <br />
+          Click the envelope for a surprise 😝
+        </p>
+      </div>
     </main>
   );
 }
